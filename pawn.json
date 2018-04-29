@@ -1,0 +1,10 @@
+{
+	"user": "AGraber",
+	"repo": "samp-dump-packets",
+	"entry": "gamemodes\\dump.pwn",
+	"output": "gamemodes\\dump.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"urShadow/Pawn.Raknet"
+	]
+}
