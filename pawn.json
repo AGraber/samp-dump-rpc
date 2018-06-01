@@ -3,8 +3,17 @@
 	"repo": "samp-dump-packets",
 	"entry": "gamemodes\\dump.pwn",
 	"output": "gamemodes\\dump.amx",
+	"local": true,
 	"dependencies": [
 		"sampctl/samp-stdlib",
 		"urShadow/Pawn.Raknet"
-	]
+	],
+	"runtime":
+	{
+		"extra":
+		{
+			"useartwork": "1"
+		},
+		"version": "0.3.DL-R1"
+	}
 }
